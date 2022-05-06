@@ -17,8 +17,4 @@ function sumItems(array) {
   return value + sumItems(newArray);
 }
 
-// const array = [1, 2, [3, 4], 5];
-// // const array = [1, 2, 3];
-// const result = sumItems(array);
-// console.log(result);
 module.exports = sumItems;
